@@ -34,7 +34,7 @@ struct CropView: View {
                 viewModel.showingTemplatePopup.toggle()
             }) {
                 HStack {
-                    Text("Selected Template: \(Int(viewModel.selectedDocument.details.photoWidth)) x \(Int(viewModel.selectedDocument.details.photoHeight))")
+                    Text("Selected Template:") + Text(" \(Int(viewModel.selectedDocument.details.photoWidth)) x \(Int(viewModel.selectedDocument.details.photoHeight))")
                         .font(.system(size: 14))
                     
                     Image("arrow")

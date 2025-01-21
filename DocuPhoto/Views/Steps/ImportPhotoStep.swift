@@ -86,8 +86,6 @@ struct ImportPhotoStep: View {
                     .padding(.top, 20)
                     
                 } else {
-                    
-                    
                     VStack (spacing: 10) {
                         PhotosPicker(selection: $photoPickerItem, label: {
                             ImportButtonLabel(image: "gallery-add", text: "Select from Gallery")
@@ -119,34 +117,19 @@ struct ImportPhotoStep: View {
                             ImportButtonLabel(image: "folder-add", text: "Select from Files")
                                 .shadow(color: .primary.opacity(0.09), radius: 4, x: 0, y: 4)
                         })
-                        .fileImporter(isPresented: $isFilePickerPresented, allowedContentTypes: [.image]) { result in
-                            switch result {
-                            case .success(let url):
-                                if url.startAccessingSecurityScopedResource() {
-                                    defer { url.stopAccessingSecurityScopedResource() }
-                                    do {
-                                        let fileData = try Data(contentsOf: url)
-                                        if let selectedImage = UIImage(data: fileData) {
-                                            viewModel.checkForFaces(in: selectedImage) { hasFaces in
-                                                if hasFaces {
-                                                    viewModel.selectedImage = selectedImage
-                                                } else {
-                                                    // Show an alert or other UI feedback
-                                                    viewModel.showAlert = true
-                                                    print("No faces detected in the selected photo.")
-                                                }
-                                            }
+                        .sheet(isPresented: $isFilePickerPresented) {
+                            FIlePicker { img in
+                                if let selectedImage = img {
+                                    viewModel.checkForFaces(in: selectedImage) { hasFaces in
+                                        if hasFaces {
+                                            viewModel.selectedImage = selectedImage
                                         } else {
-                                            print("The file is not a valid image")
+                                            // Show an alert or other UI feedback
+                                            viewModel.showAlert = true
+                                            print("No faces detected in the selected photo.")
                                         }
-                                    } catch {
-                                        print("Failed to read file data: \(error.localizedDescription)")
                                     }
-                                } else {
-                                    print("Failed to access security-scoped resource")
                                 }
-                            case .failure(let error):
-                                print("File selection failed: \(error.localizedDescription)")
                             }
                         }
                         
@@ -157,16 +140,22 @@ struct ImportPhotoStep: View {
                                 .shadow(color: .primary.opacity(0.09), radius: 4, x: 0, y: 4)
                         })
                         .fullScreenCover(isPresented: $isPresentingCamera) {
-                            ImagePicker(selectedImage: $viewModel.selectedImage) { image in
-                                viewModel.checkForFaces(in: image) { hasFaces in
-                                    if hasFaces {
-                                        viewModel.selectedImage = image
-                                    } else {
-                                        viewModel.showAlert = true
-                                        print("No faces detected in the photo taken.")
-                                        // Optionally, show an alert or feedback to the user here
+                            ZStack{
+                                ImagePicker(selectedImage: $viewModel.selectedImage) { image in
+                                    viewModel.checkForFaces(in: image) { hasFaces in
+                                        if hasFaces {
+                                            viewModel.selectedImage = image
+                                        } else {
+                                            viewModel.showAlert = true
+                                            print("No faces detected in the photo taken.")
+                                            // Optionally, show an alert or feedback to the user here
+                                        }
                                     }
                                 }
+                                Image(.kontur)
+                                    .resizable()
+                                    .scaledToFit()
+                                
                             }
                             .background(.black)
                         }
@@ -189,9 +178,11 @@ struct ImportPhotoStep: View {
                     }) {
                         Text("Remove Background")
                             .font(.system(size: 14))
+                            .foregroundStyle(Color(hex: "#A9A9A9"))
+                            .fontWeight(.medium)
                             .padding(9)
                             .padding(.horizontal, 44)
-                            .background(Color(.systemGray5))
+                            .background(Color(hex: "#E2E2E2"))
                             .cornerRadius(30)
                     }
                     .foregroundStyle(.primary)

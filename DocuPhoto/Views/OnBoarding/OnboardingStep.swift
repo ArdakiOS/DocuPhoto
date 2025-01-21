@@ -31,26 +31,26 @@ struct OnboardingStep: View {
             
             VStack {
                 VStack (spacing: 0) {
-                    Text(title)
+                    Text(LocalizedStringKey(title))
                         .font(.system(size: 28).weight(.semibold))
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .foregroundColor(.black)
                         .padding(.top, textPadding)
                         .fixedSize(horizontal: false, vertical: true)
                     
-                    Text(description)
+                    Text(LocalizedStringKey(description))
                         .font(.system(size: 16))
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .foregroundColor(.black)
                         .padding(.top, descriptionSpacing)
                     
-                    Text(description2)
+                    Text(LocalizedStringKey(description2))
                         .font(.system(size: 16))
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .foregroundColor(.black)
                         .padding(.top, descriptionSpacing)
                     
-                    Text(description3)
+                    Text(LocalizedStringKey(description3))
                         .font(.system(size: 16))
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .foregroundColor(.black)
@@ -70,12 +70,12 @@ struct OnboardingStep: View {
                             currentStep += 1
                         }
                     }) {
-                        Text(buttonText)
+                        Text(LocalizedStringKey(buttonText))
                             .bold()
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(.colorPrimary)
-                            .foregroundColor(.accent)
+                            .background(.newOnbButton)
+                            .foregroundColor(.newOnbBg)
                             .cornerRadius(25)
                         
                     }
@@ -95,7 +95,7 @@ struct OnboardingStep: View {
             }
             .ignoresSafeArea()
             .frame(height: 381)
-            .background(.accent)
+            .background(.newOnbBg)
             .cornerRadius(30, corners: [.topRight, .topLeft])
             .onChange(of: subscriptionManager.hasSubscription, { oldValue, newValue in
                 isSubsPresented = false
@@ -127,5 +127,5 @@ struct OnboardingStep: View {
 
 #Preview {
     OnboardingStep(imageName: "1", title: "Create perfect document photos in seconds!", description: "Prepare photos for passports, visas and IDs in a couple of clicks", description2: "Everything is fully compliant with international standards", description3: "No more wasting time at studios!", buttonText: "Continue", textPadding: 48, isRemoveBgShown: true, currentStep: Binding<Int>.constant(2))
-        .environmentObject(SubscriptionManager())
+        .environmentObject(ApphudSubsManager())
 }

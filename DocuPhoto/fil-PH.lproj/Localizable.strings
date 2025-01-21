@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  DocuPhoto
+
+  Created by Ardak Tursunbayev on 21.01.2025.
+  
+*/
+"Remove Background" = "Tanggalin ang Background";
+"Create perfect document photos in seconds!" = "Lumikha ng perpektong larawan ng dokumento sa ilang segundo!";
+"Prepare photos for passports, visas and IDs in a couple of clicks" = "Maghanda ng mga larawan para sa pasaporte, visa, at ID gamit ang ilang pindot";
+"Everything is fully compliant with international standards" = "Lahat ay sumusunod sa mga internasyonal na pamantayan";
+"No more wasting time at studios!" = "Wala nang sayang na oras sa mga studio!";
+"Continue" = "Magpatuloy";
+"Customize background to your needs" = "I-customize ang background ayon sa iyong pangangailangan";
+"Remove the background or change its color" = "Tanggalin ang background o baguhin ang kulay nito";
+"Choose from the available options (white, gray and others)" = "Pumili mula sa mga available na opsyon (puti, gray, at iba pa)";
+"Perfect result in a couple of seconds" = "Perpektong resulta sa ilang segundo";
+"Export and print photos with ease" = "I-export at i-print ang mga larawan nang madali";
+"Save your finished photos in JPEG and PDF formats" = "I-save ang iyong mga tapos na larawan sa JPEG at PDF na format";
+"One-touch printing via AirPrint" = "Pag-print gamit ang isang pindot sa pamamagitan ng AirPrint";
+"Preparing photos has never been easier!" = "Hindi pa naging ganito kadali ang paghahanda ng mga larawan!";
+"Create perfect document\nphotos in seconds!" = "Lumikha ng perpektong larawan ng dokumento\nsa ilang segundo!";
+"Automatic adjustment" = "Awtomatikong pagsasaayos";
+"AirPrint-ready setup" = "Handa na sa AirPrint na setup";
+"Perfect fit for printing" = "Perpektong akma para sa pag-print";
+"Background setting" = "Pagtatakda ng background";
+"By subscribing, you agree to our" = "Sa pag-subscribe, sumasang-ayon ka sa aming";
+"Terms of Use" = "Mga Tuntunin ng Paggamit";
+"Privacy Policy" = "Patakaran sa Privacy";
+"Subscribe and get started now!" = "Mag-subscribe at magsimula na ngayon!";
+"Restore purchases" = "Ibalik ang mga binili";
+"Something went wrong. Please try again later" = "May nangyaring mali. Subukang muli mamaya";
+"Error making purchase" = "May error sa pagbili";
+"Subscription found" = "Nahanap ang subscription";
+"Subscription restored, you may continue" = "Naibalik ang subscription, maaari kang magpatuloy";
+"No active subscription found" = "Walang aktibong subscription na natagpuan";
+"There is no currently active subscriptions, please subscribe to continue" = "Walang aktibong subscription sa kasalukuyan, mag-subscribe upang magpatuloy";
+"Crop Tutorial" = "Tutorial sa Pag-crop";
+"Ensure the photo captures the entire head, from the top of the hair to the bottom of the chin" = "Siguraduhin na ang larawan ay kinukuha ang buong ulo, mula sa tuktok ng buhok hanggang sa ilalim ng baba";
+"Align the head in the center of the frame" = "Ilagay ang ulo sa gitna ng frame";
+"The individual should have a neutral expression and face the camera directly." = "Ang tao ay dapat may neutral na ekspresyon at nakaharap nang direkta sa kamera.";
+"Close" = "Isara";
+"Selected Template:" = "Napiling Template:";
+"Next Step" = "Susunod na Hakbang";
+"Photo Size" = "Laki ng Larawan";
+"Head" = "Ulo";
+"Eyes" = "Mata";
+"Chin" = "Baba";
+"Width" = "Lapad";
+"Height" = "Taas";
+"Discard" = "I-discard";
+"Save Guide" = "I-save ang Gabay";
+"Start over" = "Magsimula muli";
+"Your photo is ready!" = "Handa na ang iyong larawan!";
+"Export" = "I-export";
+"Print" = "I-print";
+"Instruction" = "Tagubilin";
+"Import Photo" = "Mag-import ng Larawan";
+"Removing background..." = "Tinatanggal ang background...";
+"Next Step" = "Susunod na Hakbang";
+"The photo is not suitable for documents. Upload a photo with a frontal face position" = "Ang larawan ay hindi angkop para sa mga dokumento. Mag-upload ng larawan na may frontal na posisyon ng mukha";
+"OK" = "OK";
+"Instructions" = "Mga Tagubilin";
+"Take off hats and glasses" = "Tanggalin ang sombrero at salamin";
+"Use a photo with a plain background" = "Gumamit ng larawan na may simpleng background";
+"Ensure no shadows on the face" = "Siguraduhing walang anino sa mukha";
+"Settings" = "Mga Setting";
+"Get Premium!" = "Kumuha ng Premium!";
+"How do you create your perfect passport photo?" = "Paano ka lumikha ng perpektong larawan ng pasaporte?";
+"Write a feedback" = "Magbigay ng feedback";
+"Share this app" = "Ibahagi ang app na ito";
+"Select from Gallery" = "Pumili mula sa Gallery";
+"Select from Files" = "Pumili mula sa Mga File";
+"Make a Photo" = "Kumuha ng Larawan";
+"Edit" = "I-edit";

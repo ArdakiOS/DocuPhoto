@@ -20,7 +20,8 @@ struct SettingsRow: View {
                 .frame(width: 24, height: 24)
             
             
-            Text(title)
+            Text(LocalizedStringKey(title))
+                .multilineTextAlignment(.leading)
                 .bold(boldText)
                 .foregroundColor(.black)
             

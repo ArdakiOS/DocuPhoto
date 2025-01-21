@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  DocuPhoto
+
+  Created by Ardak Tursunbayev on 21.01.2025.
+  
+*/
+"Remove Background" = "Xóa nền";
+"Create perfect document photos in seconds!" = "Tạo ảnh tài liệu hoàn hảo trong vài giây!";
+"Prepare photos for passports, visas and IDs in a couple of clicks" = "Chuẩn bị ảnh cho hộ chiếu, thị thực và giấy tờ tùy thân chỉ trong vài cú nhấp chuột";
+"Everything is fully compliant with international standards" = "Mọi thứ hoàn toàn tuân thủ tiêu chuẩn quốc tế";
+"No more wasting time at studios!" = "Không còn lãng phí thời gian tại các studio!";
+"Continue" = "Tiếp tục";
+"Customize background to your needs" = "Tùy chỉnh nền theo nhu cầu của bạn";
+"Remove the background or change its color" = "Xóa nền hoặc thay đổi màu sắc của nó";
+"Choose from the available options (white, gray and others)" = "Chọn từ các tùy chọn có sẵn (trắng, xám và các màu khác)";
+"Perfect result in a couple of seconds" = "Kết quả hoàn hảo chỉ trong vài giây";
+"Export and print photos with ease" = "Xuất và in ảnh dễ dàng";
+"Save your finished photos in JPEG and PDF formats" = "Lưu ảnh đã hoàn thiện ở định dạng JPEG và PDF";
+"One-touch printing via AirPrint" = "In một chạm qua AirPrint";
+"Preparing photos has never been easier!" = "Chuẩn bị ảnh chưa bao giờ dễ dàng hơn!";
+"Create perfect document\nphotos in seconds!" = "Tạo ảnh tài liệu hoàn hảo\nchỉ trong vài giây!";
+"Automatic adjustment" = "Điều chỉnh tự động";
+"AirPrint-ready setup" = "Cài đặt sẵn sàng cho AirPrint";
+"Perfect fit for printing" = "Hoàn hảo để in ấn";
+"Background setting" = "Cài đặt nền";
+"By subscribing, you agree to our" = "Bằng cách đăng ký, bạn đồng ý với";
+"Terms of Use" = "Điều khoản sử dụng";
+"Privacy Policy" = "Chính sách bảo mật";
+"Subscribe and get started now!" = "Đăng ký ngay và bắt đầu!";
+"Restore purchases" = "Khôi phục giao dịch mua";
+"Something went wrong. Please try again later" = "Có lỗi xảy ra. Vui lòng thử lại sau";
+"Error making purchase" = "Lỗi khi thực hiện giao dịch mua";
+"Subscription found" = "Đã tìm thấy gói đăng ký";
+"Subscription restored, you may continue" = "Gói đăng ký đã được khôi phục, bạn có thể tiếp tục";
+"No active subscription found" = "Không tìm thấy gói đăng ký nào đang hoạt động";
+"There is no currently active subscriptions, please subscribe to continue" = "Hiện không có gói đăng ký nào đang hoạt động, vui lòng đăng ký để tiếp tục";
+"Crop Tutorial" = "Hướng dẫn cắt ảnh";
+"Ensure the photo captures the entire head, from the top of the hair to the bottom of the chin" = "Đảm bảo ảnh chụp toàn bộ đầu, từ đỉnh tóc đến cằm";
+"Align the head in the center of the frame" = "Căn chỉnh đầu ở trung tâm khung hình";
+"The individual should have a neutral expression and face the camera directly." = "Người chụp nên có biểu cảm trung lập và nhìn thẳng vào máy ảnh.";
+"Close" = "Đóng";
+"Selected Template:" = "Mẫu đã chọn:";
+"Next Step" = "Bước tiếp theo";
+"Photo Size" = "Kích thước ảnh";
+"Head" = "Đầu";
+"Eyes" = "Mắt";
+"Chin" = "Cằm";
+"Width" = "Chiều rộng";
+"Height" = "Chiều cao";
+"Discard" = "Hủy";
+"Save Guide" = "Lưu hướng dẫn";
+"Start over" = "Bắt đầu lại";
+"Your photo is ready!" = "Ảnh của bạn đã sẵn sàng!";
+"Export" = "Xuất";
+"Print" = "In";
+"Instruction" = "Hướng dẫn";
+"Import Photo" = "Nhập ảnh";
+"Removing background..." = "Đang xóa nền...";
+"Next Step" = "Bước tiếp theo";
+"The photo is not suitable for documents. Upload a photo with a frontal face position" = "Ảnh không phù hợp cho tài liệu. Hãy tải ảnh với mặt chính diện";
+"OK" = "OK";
+"Instructions" = "Hướng dẫn";
+"Take off hats and glasses" = "Cởi mũ và kính";
+"Use a photo with a plain background" = "Sử dụng ảnh với nền đơn giản";
+"Ensure no shadows on the face" = "Đảm bảo không có bóng trên khuôn mặt";
+"Settings" = "Cài đặt";
+"Get Premium!" = "Nhận Premium!";
+"How do you create your perfect passport photo?" = "Bạn tạo ảnh hộ chiếu hoàn hảo như thế nào?";
+"Write a feedback" = "Viết phản hồi";
+"Share this app" = "Chia sẻ ứng dụng này";
+"Select from Gallery" = "Chọn từ thư viện";
+"Select from Files" = "Chọn từ tệp";
+"Make a Photo" = "Chụp ảnh";
+"Edit" = "Chỉnh sửa";

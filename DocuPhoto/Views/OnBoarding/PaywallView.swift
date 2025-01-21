@@ -16,6 +16,7 @@ struct PaywallView: View {
     
     var body: some View {
         ZStack (alignment: .bottom) {
+            Color.white.ignoresSafeArea()
             Image("bgsubs")
                 .resizable()
                 .scaledToFit()
@@ -69,14 +70,14 @@ struct PaywallView: View {
                 }
                 
                 VStack(spacing: 10) {
-                    ForEach(Array(subscriptionManager.products), id: \.key) { key, product in
+                    ForEach(Array(subscriptionManager.products), id: \.self) {product in
                         Button(action: {
-                            subscriptionManager.highlightedProdcut = product
-                            subscriptionManager.selectedProduct = key
+                            subscriptionManager.highlightedProdcut = product.skProduct
+                            subscriptionManager.selectedProduct = product.appHudProduct
                         }, label: {
                             PricingOption(
-                                product: product,
-                                isHighlighted: subscriptionManager.highlightedProdcut == product
+                                product: product.skProduct,
+                                isHighlighted: subscriptionManager.highlightedProdcut == product.skProduct
                             )
                         })
                     }
@@ -117,7 +118,7 @@ struct PaywallView: View {
                         .fontWeight(.semibold)
                         .foregroundColor(.black)
                         .frame(maxWidth: .infinity, minHeight: 50)
-                        .background(.accent)
+                        .background(.newOnbBg)
                         .cornerRadius(25)
                 }
                 .padding(.horizontal)
@@ -138,7 +139,9 @@ struct PaywallView: View {
                         subscriptionManager.alertMessage = nil
                     }
                 }
+                
             }
+            .padding(.bottom, 15)
         }
         
         .ignoresSafeArea()
@@ -181,7 +184,7 @@ struct PricingOption: View {
             }
             .padding(16)
             .frame(height: 64)
-            .background(isHighlighted ? Color.accentColor : Color.background1)
+            .background(isHighlighted ? Color.newOnbBg : Color.background1)
             .cornerRadius(15)
             .multilineTextAlignment(.center)
         }
@@ -223,7 +226,7 @@ struct FeauturesElement: View {
                 .frame(width: 20, height: 20)
                 .scaledToFill()
             
-            Text(title)
+            Text(LocalizedStringKey(title))
                 .font(.system(size: 12))
         }
         .frame(width: 150, alignment: .leading)

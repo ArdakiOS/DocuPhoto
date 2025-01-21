@@ -97,6 +97,15 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				fr,
+				nl,
+				it,
+				es,
+				ja,
+				vi,
+				"pt-PT",
+				"fil-PH",
 			);
 			mainGroup = 84E98CD12D1C3F830044F178;
 			minimizedProjectReferenceProxies = 1;

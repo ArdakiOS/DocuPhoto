@@ -17,10 +17,11 @@ struct ImportButtonLabel: View {
                 .resizable()
                 .frame(width: 24, height: 24)
             
-            Text(text)
+            Text(LocalizedStringKey(text))
                 .font(.system(size: 14))
                 .bold()
                 .frame(maxWidth: .infinity, alignment: .leading)
+                .minimumScaleFactor(0.8)
             
         }
         .padding(15)

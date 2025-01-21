@@ -12,10 +12,7 @@ struct LoadingView: View {
         VStack {
             Image("icon")
                 .resizable()
-                .scaledToFit()
                 .frame(width: 155, height: 155)
-                .cornerRadius(38)
-                .shadow(radius: 38)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.white)

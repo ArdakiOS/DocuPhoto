@@ -24,7 +24,7 @@ struct InstructionRow: View {
                     .padding(.leading, 10)
                     .padding(.top, 5)
                 
-                Text(title)
+                Text(LocalizedStringKey(title))
                     .font(.system(size: 15))
                     .fontWeight(.medium)
                     .padding(.leading, 25)

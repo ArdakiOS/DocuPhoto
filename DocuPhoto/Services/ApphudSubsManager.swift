@@ -8,6 +8,11 @@ enum ApphudPaywallIds : String {
     case inapp = "inapp_paywall"
 }
 
+struct AppHudProductSkProduct : Hashable{
+    let skProduct : Product
+    let appHudProduct : ApphudProduct
+}
+
 @MainActor
 class ApphudSubsManager : ObservableObject {
     
@@ -20,7 +25,7 @@ class ApphudSubsManager : ObservableObject {
     @Published var highlightedProdcut : Product?
     @Published var isLoading: Bool = true
     
-    @Published var products : [ApphudProduct : Product] = [:]
+    @Published var products : [AppHudProductSkProduct] = []
     @Published var apphudProducts : [ApphudProduct] = [] {
         didSet{
             Task{
@@ -43,7 +48,7 @@ class ApphudSubsManager : ObservableObject {
     
     @MainActor
     func getPayWallProducts(id : String) {
-        products = [:]
+        products = []
         Apphud.paywallsDidLoadCallback { paywalls, _  in
             // if paywalls are already loaded, callback will be invoked immediately
             if let paywall = paywalls.first(where: { $0.identifier == id }) {
@@ -65,9 +70,11 @@ class ApphudSubsManager : ObservableObject {
     func convertAppHudProductToSkProducts() async {
         for i in apphudProducts {
             if let skProd = try? await i.product() {
-                self.products[i] = skProd
+                let newEntry = AppHudProductSkProduct(skProduct: skProd, appHudProduct: i)
+                self.products.append(newEntry)
             }
         }
+        self.products.sorted(by: {$0.skProduct.displayPrice < $1.skProduct.displayPrice})
     }
     
     @MainActor

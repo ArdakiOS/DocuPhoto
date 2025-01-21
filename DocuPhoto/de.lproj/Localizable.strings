@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  DocuPhoto
+
+  Created by Ardak Tursunbayev on 21.01.2025.
+  
+*/
+"Remove Background" = "Hintergrund entfernen";
+"Create perfect document photos in seconds!" = "Perfekte Dokumentfotos in Sekunden erstellen!";
+"Prepare photos for passports, visas and IDs in a couple of clicks" = "Fotos für Pässe, Visa und Ausweise in wenigen Klicks vorbereiten";
+"Everything is fully compliant with international standards" = "Alles entspricht vollständig den internationalen Standards";
+"No more wasting time at studios!" = "Kein Zeitverschwendung mehr in Studios!";
+"Continue" = "Weiter";
+"Customize background to your needs" = "Hintergrund an Ihre Bedürfnisse anpassen";
+"Remove the background or change its color" = "Den Hintergrund entfernen oder die Farbe ändern";
+"Choose from the available options (white, gray and others)" = "Wählen Sie aus den verfügbaren Optionen (weiß, grau und andere)";
+"Perfect result in a couple of seconds" = "Perfektes Ergebnis in wenigen Sekunden";
+"Export and print photos with ease" = "Fotos einfach exportieren und drucken";
+"Save your finished photos in JPEG and PDF formats" = "Speichern Sie Ihre fertigen Fotos im JPEG- und PDF-Format";
+"One-touch printing via AirPrint" = "Einfaches Drucken über AirPrint";
+"Preparing photos has never been easier!" = "Fotos vorbereiten war noch nie so einfach!";
+"Create perfect document\nphotos in seconds!" = "Perfekte Dokumentfotos\nin Sekunden erstellen!";
+"Automatic adjustment" = "Automatische Anpassung";
+"AirPrint-ready setup" = "AirPrint-fähige Einrichtung";
+"Perfect fit for printing" = "Perfekte Passform für den Druck";
+"Background setting" = "Hintergrundeinstellung";
+"By subscribing, you agree to our" = "Mit dem Abonnement stimmen Sie unseren zu";
+"Terms of Use" = "Nutzungsbedingungen";
+"Privacy Policy" = "Datenschutzrichtlinie";
+"Subscribe and get started now!" = "Abonnieren und jetzt starten!";
+"Restore purchases" = "Käufe wiederherstellen";
+"Something went wrong. Please try again later" = "Etwas ist schiefgelaufen. Bitte versuchen Sie es später erneut";
+"Error making purchase" = "Fehler beim Kauf";
+"Subscription found" = "Abonnement gefunden";
+"Subscription restored, you may continue" = "Abonnement wiederhergestellt, Sie können fortfahren";
+"No active subscription found" = "Kein aktives Abonnement gefunden";
+"There is no currently active subscriptions, please subscribe to continue" = "Derzeit gibt es kein aktives Abonnement, bitte abonnieren Sie, um fortzufahren";
+"Crop Tutorial" = "Zuschneideanleitung";
+"Ensure the photo captures the entire head, from the top of the hair to the bottom of the chin" = "Stellen Sie sicher, dass das Foto den gesamten Kopf erfasst, von der Oberseite des Haares bis zur Unterseite des Kinns";
+"Align the head in the center of the frame" = "Richten Sie den Kopf in der Mitte des Rahmens aus";
+"The individual should have a neutral expression and face the camera directly." = "Die Person sollte einen neutralen Gesichtsausdruck haben und direkt in die Kamera schauen.";
+"Close" = "Schließen";
+"Selected Template:" = "Ausgewähltes Template:";
+"Next Step" = "Nächster Schritt";
+"Photo Size" = "Fotogröße";
+"Head" = "Kopf";
+"Eyes" = "Augen";
+"Chin" = "Kinn";
+"Width" = "Breite";
+"Height" = "Höhe";
+"Discard" = "Verwerfen";
+"Save Guide" = "Anleitung speichern";
+"Start over" = "Neu beginnen";
+"Your photo is ready!" = "Ihr Foto ist fertig!";
+"Export" = "Exportieren";
+"Print" = "Drucken";
+"Instruction" = "Anleitung";
+"Import Photo" = "Foto importieren";
+"Removing background..." = "Hintergrund wird entfernt...";
+"Next Step" = "Nächster Schritt";
+"The photo is not suitable for documents. Upload a photo with a frontal face position" = "Das Foto ist nicht für Dokumente geeignet. Laden Sie ein Foto mit einer frontalen Gesichtsausrichtung hoch";
+"OK" = "OK";
+"Instructions" = "Anweisungen";
+"Take off hats and glasses" = "Hüte und Brillen abnehmen";
+"Use a photo with a plain background" = "Verwenden Sie ein Foto mit einem einfachen Hintergrund";
+"Ensure no shadows on the face" = "Sicherstellen, dass keine Schatten im Gesicht vorhanden sind";
+"Settings" = "Einstellungen";
+"Get Premium!" = "Premium erhalten!";
+"How do you create your perfect passport photo?" = "Wie erstellen Sie Ihr perfektes Passfoto?";
+"Write a feedback" = "Feedback schreiben";
+"Share this app" = "Diese App teilen";
+"Select from Gallery" = "Aus Galerie auswählen";
+"Select from Files" = "Aus Dateien auswählen";
+"Make a Photo" = "Ein Foto machen";
+"Edit" = "Bearbeiten";

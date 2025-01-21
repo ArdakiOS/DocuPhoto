@@ -61,5 +61,5 @@ struct OnboardingView: View {
 
 #Preview {
     OnboardingView()
-        .environmentObject(SubscriptionManager())
+        .environmentObject(ApphudSubsManager())
 }

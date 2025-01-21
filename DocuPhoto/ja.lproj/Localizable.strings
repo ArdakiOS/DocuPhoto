@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  DocuPhoto
+
+  Created by Ardak Tursunbayev on 21.01.2025.
+  
+*/
+"Remove Background" = "背景を削除";
+"Create perfect document photos in seconds!" = "数秒で完璧な証明写真を作成！";
+"Prepare photos for passports, visas and IDs in a couple of clicks" = "パスポート、ビザ、ID用の写真を数回のクリックで準備";
+"Everything is fully compliant with international standards" = "すべてが国際基準に完全準拠しています";
+"No more wasting time at studios!" = "スタジオでの時間の無駄はもう終わり！";
+"Continue" = "続ける";
+"Customize background to your needs" = "背景を必要に応じてカスタマイズ";
+"Remove the background or change its color" = "背景を削除または色を変更";
+"Choose from the available options (white, gray and others)" = "利用可能なオプションから選択（白、灰色など）";
+"Perfect result in a couple of seconds" = "数秒で完璧な結果";
+"Export and print photos with ease" = "簡単に写真をエクスポート＆印刷";
+"Save your finished photos in JPEG and PDF formats" = "完成した写真をJPEGやPDF形式で保存";
+"One-touch printing via AirPrint" = "AirPrintでワンタッチ印刷";
+"Preparing photos has never been easier!" = "写真の準備がこれほど簡単になったことはありません！";
+"Create perfect document\nphotos in seconds!" = "数秒で完璧な証明写真を作成！";
+"Automatic adjustment" = "自動調整";
+"AirPrint-ready setup" = "AirPrint対応セットアップ";
+"Perfect fit for printing" = "印刷に最適";
+"Background setting" = "背景設定";
+"By subscribing, you agree to our" = "購読することで、以下に同意したものとみなされます";
+"Terms of Use" = "利用規約";
+"Privacy Policy" = "プライバシーポリシー";
+"Subscribe and get started now!" = "今すぐ購読して始めよう！";
+"Restore purchases" = "購入を復元";
+"Something went wrong. Please try again later" = "問題が発生しました。後でもう一度お試しください";
+"Error making purchase" = "購入時にエラーが発生しました";
+"Subscription found" = "サブスクリプションが見つかりました";
+"Subscription restored, you may continue" = "サブスクリプションが復元されました。続行してください";
+"No active subscription found" = "有効なサブスクリプションが見つかりません";
+"There is no currently active subscriptions, please subscribe to continue" = "現在有効なサブスクリプションがありません。購読して続行してください";
+"Crop Tutorial" = "クロップのチュートリアル";
+"Ensure the photo captures the entire head, from the top of the hair to the bottom of the chin" = "写真が髪の先からあごの下までの全頭を捉えていることを確認してください";
+"Align the head in the center of the frame" = "頭をフレームの中央に合わせてください";
+"The individual should have a neutral expression and face the camera directly." = "本人はニュートラルな表情をし、カメラに正面を向いてください。";
+"Close" = "閉じる";
+"Selected Template:" = "選択されたテンプレート:";
+"Next Step" = "次のステップ";
+"Photo Size" = "写真のサイズ";
+"Head" = "頭部";
+"Eyes" = "目";
+"Chin" = "あご";
+"Width" = "幅";
+"Height" = "高さ";
+"Discard" = "破棄する";
+"Save Guide" = "ガイドを保存";
+"Start over" = "やり直す";
+"Your photo is ready!" = "写真が準備できました！";
+"Export" = "エクスポート";
+"Print" = "印刷";
+"Instruction" = "指示";
+"Import Photo" = "写真をインポート";
+"Removing background..." = "背景を削除中...";
+"Next Step" = "次のステップ";
+"The photo is not suitable for documents. Upload a photo with a frontal face position" = "この写真は証明写真には適していません。正面の顔位置の写真をアップロードしてください";
+"OK" = "OK";
+"Instructions" = "指示";
+"Take off hats and glasses" = "帽子とメガネを外してください";
+"Use a photo with a plain background" = "無地の背景を使用してください";
+"Ensure no shadows on the face" = "顔に影がないことを確認してください";
+"Settings" = "設定";
+"Get Premium!" = "プレミアムを取得！";
+"How do you create your perfect passport photo?" = "完璧なパスポート写真をどのように作成しますか？";
+"Write a feedback" = "フィードバックを書く";
+"Share this app" = "このアプリを共有する";
+"Select from Gallery" = "ギャラリーから選択";
+"Select from Files" = "ファイルから選択";
+"Make a Photo" = "写真を撮る";
+"Edit" = "編集";

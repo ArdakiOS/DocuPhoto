@@ -47,7 +47,7 @@ struct SettingsView: View {
                 .background(
                     ZStack (alignment: .trailing) {
                         LinearGradient(
-                            gradient: Gradient(colors: [.gradientBlue, .accent]),
+                            gradient: Gradient(colors: [.newGradientStart, .newGradientEnd]),
                             startPoint: .leading,
                             endPoint: .trailing
                         )
